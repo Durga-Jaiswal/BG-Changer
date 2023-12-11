@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  /* border: 2px solid  */
+}
+.background{
+  border: 2px solid pink;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap:5px;
+  justify-content: center;
+  align-items: end;
+}
+.color-pallete{
+  border:2px solid firebrick;
+  display: flex;
+  flex-wrap: wrap;
+  gap:5px;
+  justify-content: center;
+  align-items:center;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+.btn{
+  border: 2px solid indianred;
+  padding: 6px 15px;
+  border-radius: 18px;
+}
